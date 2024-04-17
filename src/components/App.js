@@ -4,7 +4,7 @@ import "./../styles/App.css";
 const generateTasks = () => {
   const tasks = [];
   for (let i = 1; i <= 50; i++) {
-    tasks.push({ id: i, title: `Task ${i}`, completed: i <= 25 });
+    tasks.push({ id: i, title: `Todo ${i}`, completed: i <= 25 });
   }
   return tasks;
 };
